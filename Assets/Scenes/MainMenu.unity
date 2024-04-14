@@ -3507,7 +3507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &795237651
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4605,7 +4605,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &980642815
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5870,10 +5870,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1945283181}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1250.344, y: 0}
+  m_SizeDelta: {x: 1250.344, y: 1257.4}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1219197368
 MonoBehaviour:
@@ -6539,7 +6539,6 @@ MonoBehaviour:
   Error: {fileID: 1224000846}
   joinError: {fileID: 1656265897}
   HostOnlyButton: {fileID: 380324815}
-  HostOnlyButto2: {fileID: 955439690}
 --- !u!114 &1287079756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6556,9 +6555,9 @@ MonoBehaviour:
   roomNameInputField2: {fileID: 572216091}
   Error: {fileID: 1224000846}
   joinError: {fileID: 1656265897}
+  HostOnlyButton: {fileID: 380324815}
   CurrentRoom: {fileID: 1925610381}
   myGameObject: {fileID: 380324815}
-  HostOnlyButton: {fileID: 380324815}
 --- !u!1 &1309447254
 GameObject:
   m_ObjectHideFlags: 0
@@ -9085,7 +9084,6 @@ MonoBehaviour:
   Error: {fileID: 0}
   joinError: {fileID: 0}
   HostOnlyButton: {fileID: 0}
-  HostOnlyButto2: {fileID: 0}
 --- !u!1 &1731157520
 GameObject:
   m_ObjectHideFlags: 0

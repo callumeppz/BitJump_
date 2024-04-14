@@ -11,11 +11,18 @@ public class TimerScript : MonoBehaviour
     /// </summary>
 
     // Variables for time tracking and UI elements
-    public float time; // cureent time
+    public float time = 0;
+    private float Currenttime; // cureent time
     public bool timerOn = true; // bool if timer on
     public Text timerText; // set to time text
     public Text finalTime; // final text after time is stopped
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject); // not destroyed on load
+    }
+
     void Start()
     {
        timerOn = true;
@@ -31,6 +38,7 @@ public class TimerScript : MonoBehaviour
             {
                 time += Time.deltaTime;
                 updateTimer(time);
+                Currenttime = time;
             }
             
         }

@@ -37,7 +37,8 @@ public class LevelSelect : MonoBehaviour
         {
 
             if (collision.gameObject.CompareTag("Player"))
-            {                  
+            {
+                PhotonNetwork.LoadLevel("Main Level(hub)");
                 buttonToDisplay.SetActive(true);
                 Debug.Log("Start Button displays");
             }
